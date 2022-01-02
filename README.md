@@ -3,7 +3,7 @@ random tranny java assignment
 
 
 
-reaadme huh  ? screw you bitch
+readme huh  ? screw you bitch
 
 my life sucks . . . . . . 
 
