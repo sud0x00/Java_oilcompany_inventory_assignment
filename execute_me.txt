@@ -1,0 +1,11 @@
+CREATE TABLE `inventory` (
+  `month` INT DEFAULT NULL,
+  `deez_ground_nuts` INT DEFAULT NULL,
+  `sunflower_seeds` INT DEFAULT NULL,
+  `container_bags` INT DEFAULT NULL,
+  `price` INT DEFAULT NULL,
+  `rice and pajeets` INT DEFAULT NULL,
+  `crushing mould` INT DEFAULT NULL,
+  `logistics_vehicles` INT DEFAULT NULL,
+  `machinery` INT DEFAULT NULL,
+) 
