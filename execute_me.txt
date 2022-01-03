@@ -1,1 +1,10 @@
+mysql -u root -p -h localhost
+
+CREATE DATABASE inventory;
+SHOW DATABASES;
+USE inventory;
+
+
+
 CREATE TABLE `inventory` (`month` INT ,`deez_ground_nuts` INT ,`sunflower_seeds` INT ,`container_bags` INT ,`price` INT ,`rice and pajeets` INT,`crushing mould` INT, `logistics_vehicles` INT,`machinery` INT);
+SHOW TABLES;
