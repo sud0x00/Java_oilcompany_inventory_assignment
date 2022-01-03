@@ -29,15 +29,16 @@ public class JDBC_mysql_java_assignment {
          x.executeUpdate(sql);
          System.out.println("Inserted records into the table...");      
          while(rs.next()){
-            System.out.print("Ground nutz stock" + rs.getInt("id"));
-            System.out.print("sunflower seeds stock" + rs.getInt("id"));
-            System.out.print("container bags stock" + rs.getInt("id"));
-            System.out.print("profit gained in the fiscal year" + rs.getInt("id"));
-            System.out.print("rice stock" + rs.getInt("id"));
-            System.out.print("crushing mould stock" + rs.getInt("id"));
-            System.out.print("logistics vehicles stock" + rs.getInt("id"));
-            System.out.print("machinery stock:" + rs.getInt("id"));
- 
+            System.out.print("Ground nutz stock" + rs.getInt("month"));
+            System.out.print("sunflower seeds stock" + rs.getInt("deez_ground_nuts"));
+            System.out.print("container bags stock" + rs.getInt("sunflower_seeds"));
+            System.out.print("profit gained in the fiscal year" + rs.getInt("container_bags"));
+            System.out.print("rice stock" + rs.getInt("price"));
+            System.out.print("crushing mould stock" + rs.getInt("rice and pajeets"));
+            System.out.print("logistics vehicles stock" + rs.getInt("crushing mould"));
+            System.out.print("machinery stock:" + rs.getInt("logistics_vehicles")); 
+            System.out.print("logistics vehicles stock" + rs.getInt("machinery"));
+
       } catch (SQLException e) {
          e.printStackTrace();
       } 
