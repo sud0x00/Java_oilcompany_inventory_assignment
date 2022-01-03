@@ -36,8 +36,7 @@ public class JDBC_mysql_java_assignment {
             System.out.print("rice stock" + rs.getInt("price"));
             System.out.print("crushing mould stock" + rs.getInt("rice and pajeets"));
             System.out.print("logistics vehicles stock" + rs.getInt("crushing mould"));
-            System.out.print("machinery stock:" + rs.getInt("logistics_vehicles")); 
-            System.out.print("logistics vehicles stock" + rs.getInt("machinery"));
+            System.out.print("month:" + rs.getInt("logistics_vehicles")); 
 
       } catch (SQLException e) {
          e.printStackTrace();
