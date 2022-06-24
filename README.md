@@ -1,15 +1,3 @@
 # java_inventory_oilcompany
-random tranny java assignment 
+random java assignment 
 
-SIGMA MALE lvl 100000 
-
-readme huh  ? screw you bitch
-
-my life sucks . . . . . . 
-
-pkmkb
-
-
-btw I'm a trash talker haha
-greetz to my nwords 
-![image](https://user-images.githubusercontent.com/91898207/167113310-39674449-8737-409c-abfb-4f134b25bcd2.png)
