@@ -6,7 +6,7 @@ import java.sql.Statement;
 public class JDBC_mysql_java_assignment {
    static final String DB_URL = "jdbc:mysql://localhost/data/inventory";
    static final String USER = "root";
-   static final String PASS = "fag4lyf";
+   static final String PASS = "toor";
  
    public static void main(String[] args) {
  
@@ -29,14 +29,14 @@ public class JDBC_mysql_java_assignment {
          x.executeUpdate(sql);
          System.out.println("Inserted records into the table...");      
          while(rs.next()){
-            System.out.print("Ground nutz stock" + rs.getInt("month"));
-            System.out.print("sunflower seeds stock" + rs.getInt("deez_ground_nuts"));
-            System.out.print("container bags stock" + rs.getInt("sunflower_seeds"));
-            System.out.print("profit gained in the fiscal year" + rs.getInt("container_bags"));
-            System.out.print("rice stock" + rs.getInt("price"));
-            System.out.print("crushing mould stock" + rs.getInt("rice and pajeets"));
-            System.out.print("logistics vehicles stock" + rs.getInt("crushing mould"));
-            System.out.print("month:" + rs.getInt("logistics_vehicles")); 
+            System.out.print("Ground nuts stock" + rs.getInt("month"));
+            System.out.print("Sunflower seeds stock" + rs.getInt("ground_nuts"));
+            System.out.print("Container bags stock" + rs.getInt("sunflower_seeds"));
+            System.out.print("Profit gained in the fiscal year" + rs.getInt("container_bags"));
+            System.out.print("Rice stock" + rs.getInt("price"));
+            System.out.print("Crushing mould stock" + rs.getInt("rice"));
+            System.out.print("Logistics vehicles stock" + rs.getInt("crushing mould"));
+            System.out.print("Month:" + rs.getInt("logistics_vehicles")); 
 
       } catch (SQLException e) {
          e.printStackTrace();
